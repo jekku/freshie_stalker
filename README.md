@@ -2,11 +2,14 @@
 
 #### Get these data at your own benefit or risk.
 
+##### Requirements :
+- Node JS v5.x.x
+- MySQL
+
 ##### Procedure :
 
 - npm install
-- Create a database named "upcat_crawler"
-- Inside it, make a table named "passers"
+- mysql -u*username* -p < schema.sql
 - node index.js
 - Enjoy your data.
 
